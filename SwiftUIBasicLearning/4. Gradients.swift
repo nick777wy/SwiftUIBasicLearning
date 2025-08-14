@@ -17,9 +17,19 @@ struct ___Gradients: View {
 //                startPoint: .topLeading,
 //                endPoint: .bottom)
                 
-                RadialGradient(gradient: <#T##Gradient#>, center: <#T##UnitPoint#>, startRadius: <#T##CGFloat#>, endRadius: <#T##CGFloat#>)
-                )
-            .frame(width: 300, height: 200)
+//                RadialGradient(
+//                    gradient: Gradient(colors: [Color.black, Color.white]),
+//                    center: .topLeading,
+//                    startRadius: 1,
+//                    endRadius: 500
+                
+                AngularGradient(
+                    gradient: Gradient(colors: [Color.red, Color.blue]),
+                    center: .topLeading,
+                    angle: .degrees(180 + 45))
+            )
+                
+            .frame(width: 400, height: 600)
     }
 }
 
