@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Overlay: View {
+struct ___Overlay: View {
     var body: some View {
         Image(systemName: "heart.fill")
             .foregroundColor(Color.white)
@@ -37,5 +37,5 @@ struct Overlay: View {
 }
 
 #Preview {
-    Overlay()
+    ___Overlay()
 }
