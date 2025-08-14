@@ -9,7 +9,31 @@ import SwiftUI
 
 struct _0__Examples: View {
     var body: some View {
-        
+        VStack (alignment: .center, spacing: 100, content: {
+            VStack(alignment: .center, spacing: 20) {
+                Text("5")
+                    .font(.largeTitle)
+                    .underline()
+                Text("Items in your cart")
+                    .font(.caption)
+                    .foregroundColor(Color.gray)
+            }
+            ZStack {
+                Circle()
+                    .frame(width: 100, height: 100)
+                Text("1")
+                    .font(.title)
+                    .foregroundColor(Color.white)
+            }
+            Text("1")
+                .font(.title)
+                .foregroundColor(Color.white)
+                .background(
+                    Circle()
+                        .frame(width: 100, height: 100)
+                )
+            
+        })
     }
 }
 
