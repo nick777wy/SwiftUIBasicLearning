@@ -26,7 +26,7 @@ struct ___Overlay: View {
                     .fill(Color.blue)
                     .frame(width: 70, height: 70)
                     .overlay(
-                            Text("5")
+                            Text("100")
                                 .font(.system(size: 30))
                                 .foregroundColor(Color.white)
                         , alignment: .center)
