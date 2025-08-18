@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct _0__ZStack: View {
+struct _0_3_ZStack: View {
     var body: some View {
         
         // ZStack doesn't has spacing because it is layerd
@@ -24,6 +24,6 @@ struct _0__ZStack: View {
 }
 
 #Preview {
-    _0__ZStack()
+    _0_3_ZStack()
 }
  

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct _0_1_AllStacks: View {
+struct _0_0_AllStacks: View {
     
     
     var body: some View {
@@ -46,5 +46,5 @@ struct _0_1_AllStacks: View {
 }
 
 #Preview {
-    _0_1_AllStacks()
+    _0_0_AllStacks()
 }

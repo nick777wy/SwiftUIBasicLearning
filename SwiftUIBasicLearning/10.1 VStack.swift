@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct _0__VStack: View {
+struct _0_1_VStack: View {
     var body: some View {
         
         // if spacing is not given then nil is alway the standard spacing
@@ -31,5 +31,5 @@ struct _0__VStack: View {
 }
 
 #Preview {
-    _0__VStack()
+    _0_1_VStack()
 }

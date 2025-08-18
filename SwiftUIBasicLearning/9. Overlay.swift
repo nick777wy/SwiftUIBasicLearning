@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ___Overlay: View {
     var body: some View {
-        Image(systemName: "heart.fill")
+        Image(systemName: "airplane.departure")
             .foregroundColor(Color.white)
             .font(.system(size: 100))
             .background(

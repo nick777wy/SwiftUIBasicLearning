@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct _0__StackExamples: View {
+struct _0_4_StackExamples: View {
     var body: some View {
         VStack (alignment: .center, spacing: 100, content: {
             VStack(alignment: .center, spacing: 20) {
@@ -38,5 +38,5 @@ struct _0__StackExamples: View {
 }
 
 #Preview {
-    _0__StackExamples()
+    _0_4_StackExamples()
 }

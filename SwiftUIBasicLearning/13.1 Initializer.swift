@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct _3__Initializer: View {
+struct _3_1Initializer: View {
     
     // I would recommend you if you don't understand this to look at the other Swift-Project: "SwiftEinstiegVorlage" on my Git and look for the page: "9. Structs"
     
@@ -46,5 +46,5 @@ struct _3__Initializer: View {
 }
 
 #Preview {
-    _3__Initializer(count: 5, title: "Apples")
+    _3_1Initializer(count: 5, title: "Apples")
 }

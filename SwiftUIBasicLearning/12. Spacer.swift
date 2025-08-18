@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct _2__Spacing: View {
+struct _2__Spacer: View {
     var body: some View {
         
         //Spacer()
@@ -56,5 +56,5 @@ struct _2__Spacing: View {
 }
 
 #Preview {
-    _2__Spacing()
+    _2__Spacer()
 }
