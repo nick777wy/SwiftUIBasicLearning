@@ -15,7 +15,7 @@ struct ___Icons: View {
             .resizable()
             .renderingMode(.original)
             .font(.largeTitle)
-            .symbolEffect(.wiggle.byLayer, options: .nonRepeating)
+            .symbolEffect(.wiggle.byLayer, options: .repeat(.continuous))
 //            .renderingMode(.original)
         // you have to add ".resizeable()" if you are using ".aspectRatio()" or ".scaledToFill()" etc
         

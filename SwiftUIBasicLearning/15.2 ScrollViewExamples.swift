@@ -14,7 +14,7 @@ struct _5_2ScrollViewExamples: View {
             // LazyVStack creates objects that are in the LazyStack only when they are needed.
             // simple: it creates here only rectangles when they are on screen so you have a better performance
             
-            LazyVStack {
+            VStack {
                 ForEach(0..<100) { index in
                     ScrollView (.horizontal, showsIndicators: false) {
                         HStack {
