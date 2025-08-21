@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUIBasicLearningApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            _6__AnimationTimings()
         }
     }
 }

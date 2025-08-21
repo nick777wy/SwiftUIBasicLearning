@@ -65,9 +65,9 @@ struct _8_Buttons: View {
                             .stroke(Color.gray, lineWidth: 2.0)
                     )
             }
-
-
-
+            
+            
+            
         }
     }
 }

@@ -15,7 +15,7 @@ struct _9_States: View {
     
     //    State says that the var could change it value
     @State var
-    buttonColor:
+buttonColor:
     Color = Color.blue
     @State var backgroundcolor: Color = Color.green
     @State var count: Int = 0
