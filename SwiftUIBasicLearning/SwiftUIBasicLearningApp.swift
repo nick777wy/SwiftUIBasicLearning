@@ -13,6 +13,7 @@ struct SwiftUIBasicLearningApp: App {
         WindowGroup {
 //            ContentView()
             _6__AnimationTimings()
+//            _7__Transitions()
         }
     }
 }
